@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+logs/
+.idea/
+.vagrant/
+DataRepository/
+*.versionsBackup
+*.log
+*.log.gz
+modeshape.repository
+scope
+mvnw
+mvnw.cmd
