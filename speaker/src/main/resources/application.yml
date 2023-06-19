@@ -1,3 +1,9 @@
 spring:
+  kafka:
+    streams:
+      application-id: cityBps
+#    consumer:
+#      auto-offset-reset: earliest
+#      group-id: groupid
   application:
     name: tourmaline
