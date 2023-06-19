@@ -18,6 +18,10 @@ public class SpeakerKafkaConfiguration {
     public NewTopic speakerTube() {
         return TopicBuilder.name("SPEAKER_TUBE").build();
     }
+    @Bean
+    public NewTopic speakerProcessTupe() {
+        return TopicBuilder.name("SPEAKER_PROCESS").build();
+    }
 
     @Bean
     public SpeakerProcess speakerProcess() {
