@@ -1,5 +1,7 @@
 spring:
   kafka:
+    admin:
+      fail-fast: true
     streams:
       application-id: cityBps
     bootstrap-servers: localhost:9092
